@@ -87,7 +87,7 @@ pnpm dev
 **Answer:**
 I wanted a `natural language search` like in `Google` for finding cars, not many people would take the time to change filters like in Flipkart/Amazon.
 
-I cut the images(time consuming), OpenAI cloud models(pricing) so I used a local `Ollama` with a free cloud model `gemma4:31b-cloud`. I also cut out making a separate backend(I have to code, link, deploy separately etc...)
+I cut the images(time consuming), OpenAI cloud models(pricing) so I used a local `Ollama` with a free cloud model `gemma4:31b-cloud`. I also cut out making a separate backend(I have to code, link, deploy separately etc...). I have also no need for a PostgreSQL Database since the cars list is not changing any time soon nor do I have an admin panel.
 
 ### 2. What's your tech stack and why did you pick it?
 
@@ -118,3 +118,4 @@ They sometimes halucinate and do something that is not needed or leave out certa
 - I would setup a separate `Backend service API`, Which would help in scaling and a better developer experience.
 - I would setup an online `OpenAI / Claude` LLM Model.
 - I would setup Jest to verify the Backend API and Frontend UI (But this is only when there is too many endpoints or screens, otherwise it would worth less).
+- I would also setup a PostgreSQL Database.
