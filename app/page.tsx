@@ -64,11 +64,14 @@ export default function Home() {
       <main>
         {/* Form with textarea and submit button */}
         <form action={formAction} className="flex flex-col gap-4">
-          <p
-            className={`${state.success ? `text-emerald-500 bg-emerald-950 font-medium px-4 py-2` : `text-red-500 bg-red-950 font-medium px-4 py-2`}`}
-          >
-            {state.message}
-          </p>
+          {state.message && (
+            <p
+              className={`${state.success ? `text-emerald-500 bg-emerald-950 font-medium px-4 py-2` : `text-red-500 bg-red-950 font-medium px-4 py-2`}`}
+            >
+              {state.message}
+            </p>
+          )}
+
           <textarea
             name="requirements"
             className="border h-24 p-4 font-semibold border-neutral-800 rounded-xl"
