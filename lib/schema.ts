@@ -14,6 +14,7 @@ export const carSchema = z.object({
   model: z.string().min(3).max(64),
   variant: z.string().min(3).max(64),
   color: z.string().min(3).max(64),
+  link: z.url().optional(),
   price: z.number().positive(),
   specs: z.object({
     engine: z.string().min(2).max(64),
