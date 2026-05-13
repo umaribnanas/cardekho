@@ -6,6 +6,7 @@ export const carsList: Car[] = [
     make: "Tata",
     model: "Nexon",
     variant: "XZ Plus S",
+    link: "https://www.cardekho.com/tata/nexon",
     color: "Flame Red",
     price: 1450000,
     specs: {
@@ -24,6 +25,7 @@ export const carsList: Car[] = [
     make: "Toyota",
     model: "Innova Crysta",
     variant: "GX 7STR",
+    link: "https://www.cardekho.com/toyota/innova-crysta",
     color: "White Pearl",
     price: 1950000,
     specs: {
@@ -42,6 +44,7 @@ export const carsList: Car[] = [
     make: "Honda",
     model: "City",
     variant: "VX CVT",
+    link: "https://www.cardekho.com/honda/city",
     color: "Meteoroid Grey",
     price: 1350000,
     specs: {
@@ -60,6 +63,7 @@ export const carsList: Car[] = [
     make: "BMW",
     model: "3 Series",
     variant: "330i M Sport",
+    link: "https://www.cardekho.com/bmw/3-series",
     color: "Alpine White",
     price: 6200000,
     specs: {
@@ -78,6 +82,7 @@ export const carsList: Car[] = [
     make: "Maruti",
     model: "Swift",
     variant: "ZXi+",
+    link: "https://www.cardekho.com/maruti/swift",
     color: "Metallic Blue",
     price: 950000,
     specs: {
@@ -96,6 +101,7 @@ export const carsList: Car[] = [
     make: "Suzuki",
     model: "Vitara Brezza",
     variant: "ZXi DT",
+    link: "https://www.cardekho.com/suzuki/vitara-brezza",
     color: "Brave Khaki",
     price: 1250000,
     specs: {
@@ -114,6 +120,7 @@ export const carsList: Car[] = [
     make: "Volkswagen",
     model: "Tiguan",
     variant: "GT Plus",
+    link: "https://www.cardekho.com/volkswagen/tiguan",
     color: "Deep Black",
     price: 3850000,
     specs: {
@@ -132,6 +139,7 @@ export const carsList: Car[] = [
     make: "Tata",
     model: "Harrier",
     variant: "Fearless Pure+",
+    link: "https://www.cardekho.com/tata/harrier",
     color: "Oberon Black",
     price: 2100000,
     specs: {
@@ -150,6 +158,7 @@ export const carsList: Car[] = [
     make: "Toyota",
     model: "Camry",
     variant: "Hybrid",
+    link: "https://www.cardekho.com/toyota/camry",
     color: "Attitude Black",
     price: 4800000,
     specs: {
@@ -168,6 +177,7 @@ export const carsList: Car[] = [
     make: "Honda",
     model: "CR-V",
     variant: "Hybrid RS",
+    link: "https://www.cardekho.com/honda/cr-v",
     color: "Radiant Red",
     price: 5200000,
     specs: {
@@ -186,6 +196,7 @@ export const carsList: Car[] = [
     make: "BMW",
     model: "X5",
     variant: "xDrive40i M Sport",
+    link: "https://www.cardekho.com/bmw/x5",
     color: "Carbon Black",
     price: 10500000,
     specs: {
@@ -204,6 +215,7 @@ export const carsList: Car[] = [
     make: "Maruti",
     model: "Ertiga",
     variant: "ZXi+ CNG",
+    link: "https://www.cardekho.com/maruti/ertiga",
     color: "Pearl Arctic White",
     price: 1350000,
     specs: {
@@ -222,6 +234,7 @@ export const carsList: Car[] = [
     make: "Volkswagen",
     model: "Virtus",
     variant: "GT Plus",
+    link: "https://www.cardekho.com/volkswagen/virtus",
     color: "Rising Blue",
     price: 1650000,
     specs: {
@@ -240,6 +253,7 @@ export const carsList: Car[] = [
     make: "Tata",
     model: "Curvv EV",
     variant: "Empowered+",
+    link: "https://www.cardekho.com/tata/curvv-ev",
     color: "Virtual Sunrise",
     price: 2150000,
     specs: {
@@ -258,6 +272,7 @@ export const carsList: Car[] = [
     make: "Toyota",
     model: "Fortuner",
     variant: "Legender 4x4",
+    link: "https://www.cardekho.com/toyota/fortuner",
     color: "Garnet Red",
     price: 4800000,
     specs: {
@@ -276,6 +291,7 @@ export const carsList: Car[] = [
     make: "Honda",
     model: "Amaze",
     variant: "VX Elite",
+    link: "https://www.cardekho.com/honda/amaze",
     color: "Lunar Silver",
     price: 1050000,
     specs: {
@@ -294,6 +310,7 @@ export const carsList: Car[] = [
     make: "BMW",
     model: "5 Series",
     variant: "530i M Sport",
+    link: "https://www.cardekho.com/bmw/5-series",
     color: "Sophisto Grey",
     price: 7200000,
     specs: {
@@ -312,6 +329,7 @@ export const carsList: Car[] = [
     make: "Maruti",
     model: "Baleno",
     variant: "Alpha AMT",
+    link: "https://www.cardekho.com/maruti/baleno",
     color: "Nexa Blue",
     price: 920000,
     specs: {
@@ -330,6 +348,7 @@ export const carsList: Car[] = [
     make: "Suzuki",
     model: "Grand Vitara",
     variant: "Alpha Hybrid",
+    link: "https://www.cardekho.com/suzuki/grand-vitara",
     color: "Splendid Silver",
     price: 1850000,
     specs: {
@@ -348,6 +367,7 @@ export const carsList: Car[] = [
     make: "Volkswagen",
     model: "Taigun",
     variant: "GT 1.5 TSI",
+    link: "https://www.cardekho.com/volkswagen/taigun",
     color: "Wild Cherry Red",
     price: 1750000,
     specs: {
